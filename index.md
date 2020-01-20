@@ -11,7 +11,7 @@
 
 ## 1. DNA Base counting
 ### Main question
-Shravan Sharth asks you to find the number of As, Ts, Gs, and Cs in the DNA genomic sequence of the coding strand in your BIO 101 class.
+Shravan Sharth asks you to find the number of As, Ts, Gs, and Cs in the DNA genomic sequence of the coding strand in your BIO 101 Class,[here](ATGC.txt)
 ### Side question
 Verify if Chargaff's Rule holds true for this sequence. If it is not, why not? Assume that this is in fact a real DNA.
 ### Example
@@ -22,7 +22,7 @@ A=21,T=29,G=27,C=23
 
 ## 2. Protein making
 ### Main question
-Samarth Mukhopadhyay has given you a DNA sequence of a template strand, first transcribe it to the corresponding RNA sequence and then use the following table to translate it to the Primary Protein sequence. Assume that 3 RNA bases code for one Amino Acid, and that translation starts from the first base itself. Do not assume stop codons.
+Samarth Mukhopadhyay has given you a DNA sequence of a template strand, [here](protein.txt), first transcribe it to the corresponding RNA sequence and then use the following table to translate it to the Primary Protein sequence. Assume that 3 RNA bases code for one Amino Acid, and that translation starts from the first base itself. Do not assume stop codons.
 #### Table -
 {"AAA"=>"A01", "UAA"=>"A02", "GAA"=>"A03", "CAA"=>"A04", "AUA"=>"A05", "UUA"=>"A06", "GUA"=>"A07", "CUA"=>"A08", "AGA"=>"A09", "UGA"=>"A10", "GGA"=>"A11", "CGA"=>"A12", "ACA"=>"A13", "UCA"=>"A14", "GCA"=>"A15", "CCA"=>"A16", "AAU"=>"A17", "UAU"=>"A18", "GAU"=>"A19", "CAU"=>"A20", "AUU"=>"A21", "UUU"=>"A22", "GUU"=>"A23", "CUU"=>"A24", "AGU"=>"A25", "UGU"=>"A26", "GGU"=>"A27", "CGU"=>"A28", "ACU"=>"A29", "UCU"=>"A30", "GCU"=>"A31", "CCU"=>"A32", "AAG"=>"A33", "UAG"=>"A34", "GAG"=>"A35", "CAG"=>"A36", "AUG"=>"A37", "UUG"=>"A38", "GUG"=>"A39", "CUG"=>"A40", "AGG"=>"A41", "UGG"=>"A42", "GGG"=>"A43", "CGG"=>"A44", "ACG"=>"A45", "UCG"=>"A46", "GCG"=>"A47", "CCG"=>"A48", "AAC"=>"A49", "UAC"=>"A50", "GAC"=>"A51", "CAC"=>"A52", "AUC"=>"A53", "UUC"=>"A54", "GUC"=>"A55", "CUC"=>"A56", "AGC"=>"A57", "UGC"=>"A58", "GGC"=>"A59", "CGC"=>"A60", "ACC"=>"A61", "UCC"=>"A62", "GCC"=>"A63", "CCC"=>"A64"}.
 //You may directly copy paste this as necessary.
@@ -71,7 +71,7 @@ What assumptions have we made in the above simulation? How valid are these assum
 
 
 ## 4. Viral relatedness
-Ritajyoti Ray Choudhary has given you two RNA sequences of different viruses, find how long ago in hours they diverged from their common ancestor.
+Ritajyoti Ray Choudhary has given you two RNA sequences of different viruses [here](virus.txt), find how long ago in hours they diverged from their common ancestor.
 Assume the following -
 - All variation is due to genetic mutations only.
 - Mutations are only of the point-type mutations.
