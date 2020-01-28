@@ -15,7 +15,7 @@
 
 1. You may use any IDE/environment of your choice. Personal preference of the organizers are Jupyter for Python and Julia, and Atom for C++ and Java. Interactive environments are also preferred, but not mandatory.
 
-1. You are free to ask the organisers any questions you want. Even questions like _how to read from a file in Python?_ are welcome. You may not get all the answers you want though. :smile: Again, the point is 
+1. You are free to ask the organisers any questions you want. Even questions like _how to read from a file in Python?_ are welcome. You may not get all the answers you want though. :smile: Again, the point is to solve the problem.
 
 ## Submission
 1. You will show your code to a volunteer who will check the output. You may show the result at any time during the event, and can also make changes if the volunteer rejects your output.
