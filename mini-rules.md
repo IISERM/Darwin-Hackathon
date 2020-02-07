@@ -11,5 +11,10 @@
 
 1. You are free to ask the organisers any questions you want, even _how to read from a file in Python?_ are welcome. Again, the point is to solve the problem
 
+# Questions range from -
+1. Find the number of As, Ts, Gs and Cs
+
+1. Simulate evolution.
+
 ## And Lastly...
 Hang around and have fun!
