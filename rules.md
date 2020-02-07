@@ -1,5 +1,5 @@
 # Rules
-1. The event is of exactly **3 hours** long.
+1. The event is of **3 hours** long, but is technically as long as you stay.
 
 1. Teams of maximum of 3 members. All members HAVE to be present before the event starts. Members are allowed to leave in between, but are not allowed to come back. Except for bathroom breaks, of course.
 
