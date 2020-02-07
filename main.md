@@ -117,7 +117,6 @@ Ranjani Jain has given you birding data of an individual as a csv from her [Mini
 ### Example Data
 |Session Name|Session Type|Session Start Time|Session Is Complete|Common Name|Genus|Species|Number|Remarks|Latitude|Longitude|Accuracy|Zone|Date|Time|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
-
 |Session1|TRAVELING|1/17/2020|Y|Ashy Prinia|Prinia|socialis|1||30.666223|76.729876|-1|CAF|1/17/2020|19:27|
 |Session1|TRAVELING|1/17/2020|Y|Ashy Prinia|Prinia|socialis|1||30.666223|76.729876|-1|CAF|1/18/2020|16:27|
 |Session1|TRAVELING|1/17/2020|Y|Ashy Prinia|Prinia|socialis|1||30.666223|76.729876|-1|CAF|1/19/2020|19:32|
