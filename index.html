@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Darwin Week Questions</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/css/uikit.min.css" />
+  <link rel="stylesheet" href="css/my.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Darwin Week Questions</h1>
+</header>
+<p>download as <a href="questions.pdf">pdf</a></p>
+<h1 id="bdf-hackathon">BDF Hackathon</h1>
+<h2 id="vision">Vision</h2>
+<p>The aim of this hackathon is to come up with algorithms to solve problems in biology and biocomputation. The organisers feel that programming is in everyone's blood, for we are inherently algorithmic. Hence, the questions do <strong>not</strong> expect that you know some fancy set of functions to solve these problems. They just need you to think about how you would go about doing something.</p>
+<p>Most of the questions are <strong>not</strong> inherently biological in nature. Biology however does provide motivation to solve these problems. The organisers feel that these questions do not need any particular knowledge of Biology (partly because the organisers themselves are not great fans of Biology <span class="emoji" data-emoji="tongue">👅</span>). Theory and necessary references are linked with the questions.</p>
+<p>Feel free to call the volunteers if you need additional information.</p>
+<h2 id="click-here-for-rules"><a href="rules">Click here for Rules</a></h2>
+<h2 id="1-dna-base-counting">1. DNA Base counting</h2>
+<h3 id="main-question">Main question</h3>
+<p>Shravan Sharath asks you to find the number of As, Ts, Gs, and Cs in the DNA genomic sequence of the coding strand in your BIO 101 Class,<a href="ATGC.txt">here</a></p>
+<h3 id="side-question">Side question</h3>
+<p>Verify if Chargaff's Rule holds true for this sequence. If it is not, why not? Assume that this is in fact a real DNA.</p>
+<h3 id="example">Example</h3>
+<h4 id="input">Input</h4>
+<p>CATGGTCATTTATCCTCTAATATATGGCCCGCACTTAGGCAAAGGTTGCACTCTAGCGCATGCGTGTTTAAGTTTAGCCGTTAGGCGTGCGGGGATCCGA</p>
+<h4 id="output">Output</h4>
+<p>A=21,T=29,G=27,C=23</p>
+<h2 id="2-protein-making">2. Protein making</h2>
+<h3 id="main-question-1">Main question</h3>
+<p>Samarth Mukhopadhyay has given you a DNA sequence of a template strand, <a href="protein.txt">here</a>, first transcribe it to the corresponding RNA sequence and then use the following table to translate it to the Primary Protein sequence. Assume that 3 RNA bases code for one Amino Acid, and that translation starts from the first base itself. Do not assume stop codons.</p>
+<h4 id="table--">Table -</h4>
+<p>{"AAA"=&gt;"A01", "UAA"=&gt;"A02", "GAA"=&gt;"A03", "CAA"=&gt;"A04", "AUA"=&gt;"A05", "UUA"=&gt;"A06", "GUA"=&gt;"A07", "CUA"=&gt;"A08", "AGA"=&gt;"A09", "UGA"=&gt;"A10", "GGA"=&gt;"A11", "CGA"=&gt;"A12", "ACA"=&gt;"A13", "UCA"=&gt;"A14", "GCA"=&gt;"A15", "CCA"=&gt;"A16", "AAU"=&gt;"A17", "UAU"=&gt;"A18", "GAU"=&gt;"A19", "CAU"=&gt;"A20", "AUU"=&gt;"A21", "UUU"=&gt;"A22", "GUU"=&gt;"A23", "CUU"=&gt;"A24", "AGU"=&gt;"A25", "UGU"=&gt;"A26", "GGU"=&gt;"A27", "CGU"=&gt;"A28", "ACU"=&gt;"A29", "UCU"=&gt;"A30", "GCU"=&gt;"A31", "CCU"=&gt;"A32", "AAG"=&gt;"A33", "UAG"=&gt;"A34", "GAG"=&gt;"A35", "CAG"=&gt;"A36", "AUG"=&gt;"A37", "UUG"=&gt;"A38", "GUG"=&gt;"A39", "CUG"=&gt;"A40", "AGG"=&gt;"A41", "UGG"=&gt;"A42", "GGG"=&gt;"A43", "CGG"=&gt;"A44", "ACG"=&gt;"A45", "UCG"=&gt;"A46", "GCG"=&gt;"A47", "CCG"=&gt;"A48", "AAC"=&gt;"A49", "UAC"=&gt;"A50", "GAC"=&gt;"A51", "CAC"=&gt;"A52", "AUC"=&gt;"A53", "UUC"=&gt;"A54", "GUC"=&gt;"A55", "CUC"=&gt;"A56", "AGC"=&gt;"A57", "UGC"=&gt;"A58", "GGC"=&gt;"A59", "CGC"=&gt;"A60", "ACC"=&gt;"A61", "UCC"=&gt;"A62", "GCC"=&gt;"A63", "CCC"=&gt;"A64"}. //You may directly copy paste this as necessary.</p>
+<h3 id="side-question-1">Side question</h3>
+<p>The total number of possible Amino acids are 64, as we saw above. However only 21 are actually found in natural settings. What could be the biochemical/evolutionary reason for this?</p>
+<h3 id="example-1">Example</h3>
+<h4 id="input-1">Input</h4>
+<p>TGTCGACATGTTGCCCCCTCAACTCTCTGT</p>
+<h4 id="output-1">Output</h4>
+<p>A16A37A59A45A41A57A07A39A26A26</p>
+<h2 id="3-evolutionary-simulation">3. Evolutionary simulation</h2>
+<h3 id="main-question-2">Main question</h3>
+<p>Nagesh Giri Pramesh wants you to simulate Selection in evolution in the following way.</p>
+<ul>
+<li>Consider a 256x256 matrix of "Ground". The ground color gradually transforms from black to white</li>
+<li>Each cell hosts a <em>diploid</em> individual of a species which has a very peculiar genetic inheritance-
+<ul>
+<li>It has 256 body color loci.</li>
+<li>Each loci has only 2 forms, colored and uncolored with the <em>colored being dominant</em>.</li>
+<li>The phenotype of the individual is the number of colored loci.</li>
+</ul></li>
+<li>Initialize the environment</li>
+<li>A generation cycle is a cycle of death and reproduction.
+<ul>
+<li><p>Death happens only by an aerial predator.</p>
+<ul>
+<li>The difference between the color of the ground and individual increases the chances of being eaten <em>linearly</em>.</li>
+<li>The maximum chance of death is 90% and minimum 5%.</li>
+<li>The cell which the individual inhabited becomes "empty" when the individual dies.</li>
+</ul></li>
+<li><p>Reproduction can happen in one of 2 ways.</p>
+<ul>
+<li>For every cell, an adjacent cell is chosen.</li>
+<li>If the adjacent cell is empty, the individual is "copied"</li>
+<li>If the adjacent cell is not empty, the two individuals mate, and 2 progeny are created. These progeny have loci values randomly chosen from the parents (one each).
+<ul>
+<li>Eg - For <em>1</em> locus, if one parent was Cc and the other cC, the progeny <em>may</em> get Cc or cc or CC in the expected</li>
+</ul></li>
+<li>Assume law of independent assortment</li>
+<li>Assume law of segregation</li>
+<li>These two progeny are then placed in place of the parents</li>
+</ul></li>
+</ul></li>
+<li>Make an image of the individuals on the ground after each generation cycle and save the image. Do this for 100 generations. Make a gif of these from an online gif maker, or from within your language of choice itself.
+<ul>
+<li>Note - Animations in Python are pretty messy.</li>
+</ul></li>
+</ul>
+<h4 id="hint">Hint</h4>
+<ul>
+<li>The number 256 is chosen for a reason.</li>
+</ul>
+<h3 id="side-question-2">Side question</h3>
+<p>What assumptions have we made in the above simulation? How valid are these assumptions in a real-life scenario?</p>
+<h2 id="4-viral-relatedness">4. Viral relatedness</h2>
+<p>Ritajyoti Ray Choudhary has given you two RNA sequences of different viruses <a href="virus.txt">here</a>, find how long ago in hours they diverged from their common ancestor. Assume the following -</p>
+<ul>
+<li>All variation is due to genetic mutations only.</li>
+<li>Mutations are only of the point-type mutations.
+<ul>
+<li>Insertion of a single base.</li>
+<li>Deletion of a single base.</li>
+<li>Substitutions of a base. Transversions and transitions are equally probable.</li>
+</ul></li>
+<li>Mutations occur at a rate of 0.1% of total genome per generation.</li>
+<li>All mutations are neutral.</li>
+<li>Assume an insertion and Deletion in one location as a single Substitutions.</li>
+<li>Assume double Substitutions as single Substitutions.</li>
+<li>1 generation lasts 3 hours.</li>
+</ul>
+<h3 id="side-question-3">Side question</h3>
+<p>What assumptions have we made in the above simulation? How valid are these assumptions in a real-life scenario?</p>
+<h3 id="example-2">Example</h3>
+<h4 id="input-2">Input</h4>
+<p>GACAUGUCUC, GCAUCGUAUC</p>
+<h4 id="output-2">Output</h4>
+<p>900</p>
+<blockquote>
+<p>Because - (This is not required to be outputted)</p>
+<p>Number of mutations - 3</p>
+</blockquote>
+<ul>
+<li>delete A at pos 2
+<ul>
+<li>G <del>A</del> CAUGUCUC</li>
+</ul></li>
+<li>insert C at pos 5
+<ul>
+<li>GCAU <strong>C</strong> GUCUC</li>
+</ul></li>
+<li>Substitute C-&gt;A at pos 8
+<ul>
+<li>GCAUCGU <del>C</del> <strong>A</strong> UC</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>Mutations per generation = 0.01 ⟹ generations for one mutation = 100</p>
+<p>Length of a generation = 3 hours</p>
+<p>Hence time of divergence = 3 mut * 100 gen/mut * 3 hr/gen = 900 hr</p>
+</blockquote>
+<h2 id="5-cumulative-species-accumulation-curve">5. Cumulative Species Accumulation curve.</h2>
+<p>Ranjani Jain has given you birding data of an individual as a csv from her <a href="https://play.google.com/store/apps/details?id=net.manjarijain.minivet">Minivet Birding app</a>, plot the Cumulative Species Richness/Accumulation Curve. In case you were sleeping in her class, look <a href="https://en.wikipedia.org/wiki/Species_discovery_curve">here</a>.</p>
+<h3 id="example-data">Example Data</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Session Name</th>
+<th>Session Type</th>
+<th>Session Start Time</th>
+<th>Session Is Complete</th>
+<th>Common Name</th>
+<th>Genus</th>
+<th>Species</th>
+<th>Number</th>
+<th>Remarks</th>
+<th>Latitude</th>
+<th>Longitude</th>
+<th>Accuracy</th>
+<th>Zone</th>
+<th>Date</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Session1</td>
+<td>TRAVELING</td>
+<td>1/17/2020</td>
+<td>Y</td>
+<td>Ashy Prinia</td>
+<td>Prinia</td>
+<td>socialis</td>
+<td>1</td>
+<td></td>
+<td>30.666223</td>
+<td>76.729876</td>
+<td>-1</td>
+<td>CAF</td>
+<td>1/17/2020</td>
+<td>19:27</td>
+</tr>
+<tr class="even">
+<td>Session1</td>
+<td>TRAVELING</td>
+<td>1/17/2020</td>
+<td>Y</td>
+<td>Ashy Prinia</td>
+<td>Prinia</td>
+<td>socialis</td>
+<td>1</td>
+<td></td>
+<td>30.666223</td>
+<td>76.729876</td>
+<td>-1</td>
+<td>CAF</td>
+<td>1/18/2020</td>
+<td>16:27</td>
+</tr>
+<tr class="odd">
+<td>Session1</td>
+<td>TRAVELING</td>
+<td>1/17/2020</td>
+<td>Y</td>
+<td>Ashy Prinia</td>
+<td>Prinia</td>
+<td>socialis</td>
+<td>1</td>
+<td></td>
+<td>30.666223</td>
+<td>76.729876</td>
+<td>-1</td>
+<td>CAF</td>
+<td>1/19/2020</td>
+<td>19:32</td>
+</tr>
+<tr class="even">
+<td>Session1</td>
+<td>TRAVELING</td>
+<td>1/17/2020</td>
+<td>Y</td>
+<td>Ashy Prinia</td>
+<td>Prinia</td>
+<td>socialis</td>
+<td>1</td>
+<td></td>
+<td>30.666223</td>
+<td>76.729876</td>
+<td>-1</td>
+<td>CAF</td>
+<td>1/19/2020</td>
+<td>20:45</td>
+</tr>
+</tbody>
+</table>
+<h2 id="6-bird-call-counting">6. Bird call counting</h2>
+<p>Assume that every bird song is made up of these following constituent sub-calls-</p>
+<ul>
+<li>Chirp (chp)</li>
+<li>Whistle (wsl)</li>
+<li>Trill (trl)</li>
+<li>Click (clk)</li>
+<li>Buzz (bzz)</li>
+<li>Rest (rst)</li>
+</ul>
+<p>An analysis of world bird data tells us the following</p>
+<ul>
+<li>If difference in call from a standard call are less than 5% apart, they are always of the same species.</li>
+<li>If difference in call from a standard call are more than 10% apart, they are always of different species.</li>
+<li>If difference is between 5-10%, one cannot be sure.</li>
+</ul>
+<p>Bird and Environment Lab (BEL), IISER Mohali has recorded sound from a forest for 15 minutes and individual bird calls were isolated, which can be found <a href="calls.txt">here</a>.</p>
+<p>The following is a list of the calls of all birds that were made by BEL members from actual observation <strong>manually</strong>.</p>
+<p>(You may copy-paste this)-</p>
+<ul>
+<li>Fulvous whistling duck : wsl-bzz-chp-trl-wsl-clk-trl-trl-chp-bzz-wsl-bzz-wsl-wsl-wsl-wsl-trl-wsl-trl-chp</li>
+<li>Lesser whistling duck : wsl-rst-trl-clk-bzz-chp-wsl-rst-trl-trl-clk-wsl-clk-chp-rst-clk-clk-bzz-bzz-clk</li>
+<li>Red-breasted goose : trl-wsl-wsl-wsl-rst-chp-trl-wsl-clk-rst-clk-wsl-chp-clk-bzz-clk-bzz-wsl-wsl-trl</li>
+<li>Bar-headed goose : wsl-wsl-trl-trl-clk-trl-clk-clk-rst-wsl-bzz-rst-trl-bzz-clk-chp-wsl-bzz-bzz-clk</li>
+<li>Graylag goose : chp-bzz-bzz-bzz-clk-wsl-bzz-trl-bzz-chp-bzz-wsl-clk-wsl-bzz-trl-clk-rst-trl-bzz</li>
+<li>Taiga bean-goose : clk-bzz-wsl-rst-wsl-bzz-chp-rst-wsl-rst-wsl-clk-trl-bzz-chp-trl-clk-rst-wsl-wsl</li>
+<li>Tundra bean-goose : trl-clk-bzz-rst-wsl-bzz-wsl-trl-bzz-wsl-rst-rst-rst-rst-wsl-chp-rst-clk-clk-trl</li>
+<li>Greater white-fronted goose : rst-chp-chp-wsl-chp-wsl-chp-rst-rst-wsl-bzz-clk-clk-wsl-clk-wsl-clk-trl-wsl-clk</li>
+<li>Lesser white-fronted goose : clk-chp-bzz-chp-clk-bzz-chp-chp-wsl-wsl-clk-rst-rst-wsl-wsl-clk-rst-wsl-trl-bzz</li>
+<li>Mute swan : wsl-trl-trl-bzz-trl-trl-bzz-bzz-rst-clk-trl-clk-chp-trl-clk-wsl-chp-trl-bzz-trl</li>
+<li>Tundra swan : clk-wsl-bzz-trl-clk-rst-rst-rst-clk-trl-wsl-rst-wsl-chp-clk-clk-clk-clk-chp-chp</li>
+<li>Whooper swan : rst-rst-clk-clk-bzz-rst-wsl-bzz-trl-bzz-bzz-rst-chp-trl-wsl-trl-bzz-bzz-wsl-chp</li>
+<li>Knob-billed duck : rst-clk-chp-trl-clk-wsl-chp-rst-clk-bzz-chp-trl-bzz-bzz-chp-trl-chp-rst-bzz-trl</li>
+<li>Common shelduck : trl-trl-trl-trl-wsl-chp-trl-trl-trl-trl-trl-chp-bzz-wsl-clk-rst-trl-trl-rst-rst</li>
+<li>Ruddy shelduck : clk-trl-rst-chp-trl-bzz-bzz-clk-clk-bzz-rst-bzz-rst-chp-bzz-bzz-rst-trl-trl-trl</li>
+<li>White-winged duck : clk-chp-bzz-chp-chp-chp-chp-bzz-clk-trl-trl-rst-trl-trl-wsl-chp-clk-trl-wsl-chp</li>
+<li>Mandarin duck : bzz-bzz-chp-wsl-rst-chp-wsl-clk-rst-clk-chp-rst-wsl-bzz-trl-rst-bzz-wsl-rst-chp</li>
+</ul>
+<p>Count the following -</p>
+<ul>
+<li>Number of species in data</li>
+<li>Number of individuals of each species</li>
+<li>Number of identifiable species. First verify if BEL data is correct. Members of BEL are known to be lax in their work. If you feel that two birds may be the same species, assume the species that occurs first in the above list.</li>
+</ul>
+<h2 id="side-question-4">Side Question</h2>
+<p>How valid is this sort of analysis to ID birds on the basis of the call. What would be the problems one may face when trying to do this? You may want to look at PCA.</p>
+</body>
+</html>
