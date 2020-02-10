@@ -14,7 +14,7 @@ Feel free to call the volunteers if you need additional information.
 
 ## [Click here for Rules](rules)
 
-## 1. DNA Base counting
+## 1. DNA Base counting \[10 points\]
 ### Main question
 Shravan Sharath asks you to find the number of As, Ts, Gs, and Cs in the DNA genomic sequence of the coding strand in your BIO 101 Class,[here](ATGC.txt)
 ### Side question
@@ -25,7 +25,7 @@ CATGGTCATTTATCCTCTAATATATGGCCCGCACTTAGGCAAAGGTTGCACTCTAGCGCATGCGTGTTTAAGTTTAGCCG
 #### Output
 A=21,T=29,G=27,C=23
 
-## 2. Protein making
+## 2. Protein making \[20 points\]
 ### Main question
 Samarth Mukhopadhyay has given you a DNA sequence of a template strand, [here](protein.txt), first transcribe it to the corresponding RNA sequence and then use the following table to translate it to the Primary Protein sequence. Assume that 3 RNA bases code for one Amino Acid, and that translation starts from the first base itself. Do not assume stop codons.
 #### Table -
@@ -41,7 +41,7 @@ TGTCGACATGTTGCCCCCTCAACTCTCTGT
 #### Output
 A16A37A59A45A41A57A07A39A26A26
 
-## 3. Evolutionary simulation
+## 3. Evolutionary simulation \[100 points\]
 ### Main question
 Nagesh Giri Pramesh wants you to simulate Selection in evolution in the following way.
 
@@ -75,7 +75,7 @@ Nagesh Giri Pramesh wants you to simulate Selection in evolution in the followin
 What assumptions have we made in the above simulation? How valid are these assumptions in a real-life scenario?
 
 
-## 4. Viral relatedness
+## 4. Viral relatedness \[100 points\]
 Ritajyoti Ray Choudhary has given you two RNA sequences of different viruses [here](virus.txt), find how long ago in hours they diverged from their common ancestor.
 Assume the following -
 - All variation is due to genetic mutations only.
@@ -114,7 +114,7 @@ GACAUGUCUC, GCAUCGUAUC
 >
 > Hence time of divergence = 3 mut * 100 gen/mut * 3 hr/gen = 900 hr
 
-## 5. Cumulative Species Accumulation curve.
+## 5. Cumulative Species Accumulation curve. \[50 points\]
 Ranjani Jain has given you birding data of an individual as a set of csvs ([1](session1.csv), [2](session2.csv), [3](session3.csv))from her [Minivet Birding app](https://play.google.com/store/apps/details?id=net.manjarijain.minivet), plot the Cumulative Species Richness/Accumulation Curve over all sessions. In case you were sleeping in her class, look [here](https://en.wikipedia.org/wiki/Species_discovery_curve).
 ### Example Data
 |Session Name|Session Type|Session Start Time|Session Is Complete|Common Name|Genus|Species|Number|Remarks|Latitude|Longitude|Accuracy|Zone|Date|Time|
@@ -124,7 +124,7 @@ Ranjani Jain has given you birding data of an individual as a set of csvs ([1](s
 |Session1|TRAVELING|1/17/2020|Y|Ashy Prinia|Prinia|socialis|1||30.666223|76.729876|-1|CAF|1/19/2020|19:32|
 |Session1|TRAVELING|1/17/2020|Y|Ashy Prinia|Prinia|socialis|1||30.666223|76.729876|-1|CAF|1/19/2020|20:45|
 
-## 6. Bird call counting
+## 6. Bird call counting \[150 points\]
 Assume that every bird song is made up of these following constituent sub-calls-
 - Chirp (chp)
 - Whistle (wsl)
