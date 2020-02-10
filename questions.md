@@ -168,4 +168,4 @@ Count the following -
 - Number of identifiable species. First verify if BEL data is correct. Members of BEL are known to be lax in their work. If you feel that two birds may be the same species, assume the species that occurs first in the above list.
 
 ## Side Question
-How valid is this sort of analysis to ID birds on the basis of the call. What would be the problems one may face when trying to do this? You may want to look at PCA.
+How valid is this sort of analysis to ID birds on the basis of the call. What would be the problems one may face when trying to do this?
