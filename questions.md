@@ -115,7 +115,7 @@ GACAUGUCUC, GCAUCGUAUC
 > Hence time of divergence = 3 mut * 100 gen/mut * 3 hr/gen = 900 hr
 
 ## 5. Cumulative Species Accumulation curve.
-Ranjani Jain has given you birding data of an individual as a csv from her [Minivet Birding app](https://play.google.com/store/apps/details?id=net.manjarijain.minivet), plot the Cumulative Species Richness/Accumulation Curve. In case you were sleeping in her class, look [here](https://en.wikipedia.org/wiki/Species_discovery_curve).
+Ranjani Jain has given you birding data of an individual as a set of csvs ([1](session1.csv), [2](session2.csv), [3](session3.csv))from her [Minivet Birding app](https://play.google.com/store/apps/details?id=net.manjarijain.minivet), plot the Cumulative Species Richness/Accumulation Curve over all sessions. In case you were sleeping in her class, look [here](https://en.wikipedia.org/wiki/Species_discovery_curve).
 ### Example Data
 |Session Name|Session Type|Session Start Time|Session Is Complete|Common Name|Genus|Species|Number|Remarks|Latitude|Longitude|Accuracy|Zone|Date|Time|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
