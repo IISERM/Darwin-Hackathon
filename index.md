@@ -105,6 +105,7 @@ At each time step, each Aveosaur follows the above three rules, calculates it po
 - begin with 100 creatures
 - leave out the constants (for force laws) as settable
 - Plot it in such a way that we can see the direction of the Aveosaur
+- Assume periodic boundary conditions. Basically, birds which fly out of the left fly back in from the right, etc.
 
 ## Question 5 [50 Marks]
 
