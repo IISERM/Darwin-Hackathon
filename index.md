@@ -82,7 +82,7 @@ Input will be $N$ and a list of $2^N$ initial individual genotypes. Groups are t
 [OUT ] 0 1 0
 ```
 
-## Question 5 [50 Marks]
+## Question 4 [50 Marks]
 
 Meanwhile Dr. Jim, the ecologist was sitting silent. You and your friends approached him to know what he was thinking about deeply. He said he was wondering about the patterns of flight of the extinct dinosaur (the bone they had found earlier). He smiles and asks you if you can model a flight simulation given certain well-thought constraints about the movements of the creatures.
 
@@ -94,7 +94,7 @@ Dr. Jim tells that the individual creatures ("let's call them Aveosaurs") are in
 
 At each time step, each Aveosaur follows the above three rules, calculates it position and moves to it. Run a visual simulation and if possible save the output sequence as a series of images/video file so that Dr. Jim can analyse the group behavior patterns.
 
-## Question 6 [50 Marks]
+## Question 5 [50 Marks]
 
 Everyone is finally exhausted and ready to go, when suddenly Dr. Dwight appears in front of your group and tells you that he has found some interesting amino acid combinations in the protein translations of the DNA sample collected from the Aveosaur bone. He has one final task for you but it is a simple computational task that can be solved on your laptop in the cruise while you are on your way to Galapagos. You listen as he closely explains the final puzzle of the most interesting day you had in your life:
 
@@ -119,9 +119,7 @@ Charges on the amino acid.
 | A5         | 1.133  |
 | A6         | 1.137  |
 
-Electrostatic Energy: $\frac{Q_1Q_2}{r_{AB}}$ where $r_{AB}$ is the distance between the acids
-
-Bonding energy = $V_\mathrm{LJ}(r) = 16 \left[ \left(\frac{1}{r_{CA}}\right)^{12} - \left(\frac{1}{r_{CA}}\right)^{6} \right]$ where $r_{CA}$ is the bond length of that amino acid.
+![Equations](./eqns.png)
 
 ### Input
 
