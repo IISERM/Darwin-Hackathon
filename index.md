@@ -1,21 +1,21 @@
-# BDF Hackathon
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
-## Vision
+# Vision
 
 The aim of this hackathon is to come up with algorithms to solve problems in biology and bio-computation. The organizers feel that programming is in everyone's blood, for we are inherently algorithmic. Hence, the questions do **not** expect that you know some fancy set of functions to solve these problems. They just need you to think about how you would go about doing something.
 
 Most of the questions are **not** inherently biological in nature. Biology however does provide motivation to solve these problems. The organizers feel that these questions do not need any particular knowledge of Biology (partly because the organizers themselves are not great fans of Biology 👅). Theory and necessary references are linked with the questions.
 Feel free to call the volunteers if you need additional information.
 
-## [Click here for Rules](./rules)
-
-## Questions
+# [Click here for Rules](./rules)
 
 # Questions
 
 To celebrate Darwin week, you decided to go on an expedition to the Galapagos island. You and your friends book a cruise for the same. Upon boarding the ship you come to know that the cruise has all sorts of researchers and science enthusiasts who are going to Galapagos and nearby islands to conduct different experiments in honour of Darwin. The journey is going great while all of a sudden you seem to notice an island close by that is not shown on the map. The captain agrees to halt on the seemingly new island and you dock there. As soon as everyone sets foot on the island they are fascinated by things that seem out of the ordinary. The island was previously undiscovered and thus there lies a great bounty of flora and fauna and also some traces of extinct species that have not been found anywhere else. The ship was loaded with scientists and equipments for the experiments.
 
-## Question 1
+## Question 1 [20 Marks]
 
 One of the first things that you find out there is a preserved bone of a creature that looks like an archaic flying dinosaur.
 One of the molecular evolution scientist Dr. Dwight want to extract DNA from the bone and sequence it.
@@ -27,7 +27,7 @@ A k-mer is a small subsequence of length k from the larger piece of DNA/RNA/Prot
 Given a fasta file and a value of k, you need to accomplish the following:
 
 - Extract all the sequences from the given file
-- Find the most frequently occuring k-mer in all of the sequences combined (one k-mer for the whole file)
+- Find the most frequently occurring k-mer in all of the sequences combined (one k-mer for the whole file)
 
 ### Input
 
@@ -40,7 +40,7 @@ Take k=5 and [this](seq.fasta) fasta file
 1. All kmers, split by `,`
 2. Most occuring kmers
 
-## Question 2
+## Question 2 [35 Marks]
 
 A little while later you stumble upon a population of wild rabbits of different colour that fascinates Dr. Michael, the population geneticist. He is fascinated by the colours ranging from blue to red. He has a task in mind but as with Dr. Dwight, he doubts whether you can solve the task, so he wants to test you on your knowledge of Mendel's Laws and probability. He asks the following question:
 
@@ -56,7 +56,7 @@ Please don't hesitate to reach out to find out how genetics works.
 
 The probability.
 
-## Question 3
+## Question 3 [25 Marks]
 
 After submitting a satisfactory program that can calculate the probabilities as mentioned in the question, Dr. Michael tells you about the original task that he had in his mind:
 
@@ -82,7 +82,7 @@ Input will be $N$ and a list of $2^N$ initial individual genotypes. Groups are t
 [OUT ] 0 1 0
 ```
 
-## Question 5
+## Question 5 [50 Marks]
 
 Meanwhile Dr. Jim, the ecologist was sitting silent. You and your friends approached him to know what he was thinking about deeply. He said he was wondering about the patterns of flight of the extinct dinosaur (the bone they had found earlier). He smiles and asks you if you can model a flight simulation given certain well-thought constraints about the movements of the creatures.
 
@@ -94,7 +94,7 @@ Dr. Jim tells that the individual creatures ("let's call them Aveosaurs") are in
 
 At each time step, each Aveosaur follows the above three rules, calculates it position and moves to it. Run a visual simulation and if possible save the output sequence as a series of images/video file so that Dr. Jim can analyse the group behavior patterns.
 
-## Question 6
+## Question 6 [50 Marks]
 
 Everyone is finally exhausted and ready to go, when suddenly Dr. Dwight appears in front of your group and tells you that he has found some interesting amino acid combinations in the protein translations of the DNA sample collected from the Aveosaur bone. He has one final task for you but it is a simple computational task that can be solved on your laptop in the cruise while you are on your way to Galapagos. You listen as he closely explains the final puzzle of the most interesting day you had in your life:
 
