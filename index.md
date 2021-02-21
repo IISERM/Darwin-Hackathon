@@ -156,7 +156,7 @@ After you solve the final question - you arrive at Galapagos to enjoy the rest o
 - Renaming all your files as `Qx.ext`
 - Putting them into a zip/tar file with name `teamname.zip`/`teamname.tar`
 - Mailing them to turingclub@iisermohali.ac.in
-- Say thank you to Arpit Omprakash for these lovely questions
+- Saying thank you to Arpit Omprakash for these lovely questions
 
 # Enjoy!
 
