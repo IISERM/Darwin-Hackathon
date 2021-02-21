@@ -31,7 +31,9 @@ Given a fasta file and a value of k, you need to accomplish the following:
 
 ### Input
 
-`k` and FASTA file of one organism
+`k` and FASTA file of one organism.
+
+Take k=5 and [this](seq.fasta) fasta file
 
 ### Output
 
