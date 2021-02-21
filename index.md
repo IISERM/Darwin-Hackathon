@@ -94,6 +94,18 @@ Dr. Jim tells that the individual creatures ("let's call them Aveosaurs") are in
 
 At each time step, each Aveosaur follows the above three rules, calculates it position and moves to it. Run a visual simulation and if possible save the output sequence as a series of images/video file so that Dr. Jim can analyse the group behavior patterns.
 
+### Values
+
+- Assume the sky is 1200m X 800m
+- Each time step is 1 second (though this doesn't matter)
+- Mass of Aveosaurs - should be randomly selected for each individual (varies from 50 to 250 kgs)
+- Initiate positions randomly
+- Initiate velocities (as 2D vectors) with magnitudes randomly selected between -9 to 9 mps
+- radius of knowledge - 80m
+- begin with 100 creatures
+- leave out the constants (for force laws) as settable
+- Plot it in such a way that we can see the direction of the Aveosaur
+
 ## Question 5 [50 Marks]
 
 Everyone is finally exhausted and ready to go, when suddenly Dr. Dwight appears in front of your group and tells you that he has found some interesting amino acid combinations in the protein translations of the DNA sample collected from the Aveosaur bone. He has one final task for you but it is a simple computational task that can be solved on your laptop in the cruise while you are on your way to Galapagos. You listen as he closely explains the final puzzle of the most interesting day you had in your life:
