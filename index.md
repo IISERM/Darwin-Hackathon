@@ -1,7 +1,3 @@
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
 # Vision
 
 The aim of this hackathon is to come up with algorithms to solve problems in biology and bio-computation. The organizers feel that programming is in everyone's blood, for we are inherently algorithmic. Hence, the questions do **not** expect that you know some fancy set of functions to solve these problems. They just need you to think about how you would go about doing something.
@@ -10,6 +6,8 @@ Most of the questions are **not** inherently biological in nature. Biology howev
 Feel free to call the volunteers if you need additional information.
 
 # [Click here for Rules](./rules)
+
+# [Click here for Submissions](./results)
 
 # Questions
 
