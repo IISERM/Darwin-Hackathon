@@ -4,6 +4,10 @@
 
 # Solutions
 
+The answers that Arpit has made can be found in [this repository](https://github.com/aceking007/DWH2021).
+The below is a very short analysis of what people did. I would really like to add a proper discussion of solutions, but due to lack of time I've not been able to do it.
+I'd really appreciate it if some of you can extend the discussion by sending PRs.
+
 ## Q1. FASTA
 
 Eh easy everyone did it. Nonetheless, see my solution [here](kmer.jl)
