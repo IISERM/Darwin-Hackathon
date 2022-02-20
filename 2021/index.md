@@ -2,13 +2,12 @@
 
 The aim of this hackathon is to come up with algorithms to solve problems in biology and bio-computation. The organizers feel that programming is in everyone's blood, for we are inherently algorithmic. Hence, the questions do **not** expect that you know some fancy set of functions to solve these problems. They just need you to think about how you would go about doing something.
 
-Most of the questions are **not** inherently biological in nature. Biology however does provide motivation to solve these problems.
-
+Most of the questions are **not** inherently biological in nature. Biology however does provide motivation to solve these problems. The organizers feel that these questions do not need any particular knowledge of Biology (partly because the organizers themselves are not great fans of Biology 👅). Theory and necessary references are linked with the questions.
 Feel free to call the volunteers if you need additional information.
 
 # [Click here for Rules](./rules)
 
-<!-- # [Click here for Submissions](./results) -->
+# [Click here for Submissions](./results)
 
 # Questions
 
@@ -61,13 +60,13 @@ After submitting a satisfactory program that can calculate the probabilities as 
 
 Dr. Michael with his advanced genotype detector, has detected the genotypes of a few of the colorful rabbits for a locus that he presumes determines the colour of the rabbits. Using this knowledge he has planned out a breeding experiment with several pedigree trees depicting the mating lines.
 
-The experiment is as follows. First, $$2^N$$ individuals with known genotypes are grouped into $2^{N-1}$ groups of 2. Each group has one progeny. This is repeated. Thus every generation, the number of individuals reduce by a factor of 2. At the end of N generations, one individual remains.
+The experiment is as follows. First, $$2^N$$ individuals with known genotypes are grouped into $$2^{N-1}$$ groups of 2. Each group has one progeny. This is repeated. Thus every generation, the number of individuals reduce by a factor of 2. At the end of N generations, one individual remains.
 
 Dr. Micheal wants you to write a program which is able to predict the probability of the last individual of this epic lineage to be `CC` `cc` and `cC/Cc`.
 
 ### Input
 
-Input will be $N$ and a list of $2^N$ initial individual genotypes. Groups are to be made with consecutive members.
+Input will be $$N$$ and a list of $$2^N$$ initial individual genotypes. Groups are to be made with consecutive members.
 
 ### Output
 
@@ -141,6 +140,13 @@ The four amino acids
 
 The positions of the amino acids
 
+### Hint
+
+Look at previous hackathons. Maybe something can help???
+
+- [DWH 2020](../2020)
+- [CTM S-Week 2020](https://iiserm.github.io/schrodinger-week/code-the-matrix)
+
 # Done!
 
 After you solve the final question - you arrive at Galapagos to enjoy the rest of the evening with your friends, but not before-
@@ -148,14 +154,10 @@ After you solve the final question - you arrive at Galapagos to enjoy the rest o
 - Renaming all your files as `Qx.ext`
 - Putting them into a zip/tar file with name `teamname.zip`/`teamname.tar`
 - Mailing them to turingclub@iisermohali.ac.in
+- Saying thank you to Arpit Omprakash for these lovely questions
 
 # Enjoy!
 
 Good Luck!
-
-# Want a look at the earlier hackathons. Here they are-
-
-- [DWH 2020](2020)
-- [DWH 2021](2021)
 
 {% include mathjax.html %}

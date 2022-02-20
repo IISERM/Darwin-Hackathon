@@ -26,4 +26,3 @@
 - __totally\_blank__
   - [Q1.py](totally_blank/Q1.py)
 
-_This page was made with the help of [md-file-tree](https://github.com/michalbe/md-file-tree)_
