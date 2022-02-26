@@ -9,20 +9,21 @@
     - Julia - Plots (any prefered backend, but GR is best) and DataFrames
     - C++ - gnuplot-iostream.h, time.h, fstream
     - Java - jfreechart or equivalent, File
+A particular question might allow usage of a specific library. If so, it would be mentioned in the question. If you feel the need to use an unmentioned library, inform the organizers. 
 6. You may use any IDE/environment of your choice. Personal preference of the organizers are Jupyter for Python, Pluto for Julia.
-7. You are free to ask the organisers any questions you want. Even questions like _how to read from a file in Python?_ are welcome. You may not get all the answers you want though. 🙂 Again, the point is to solve the problem.
-8. Please join the whatsapp group (link will be shared)
+7. You are free to ask the organizers any questions you want. Even questions like _how to read from a file in Python?_ are welcome. You may not get all the answers you want though. 🙂 Again, the point is to solve the problem.
+8. Please join the WhatsApp group (link will be shared).
 
 ## Submission
 
 1. You can show your code to the organizers who will check the output. You may show the result at any time during the event, and can also make changes if the organizers reject your output.
 2. You will be expected to answer questions about your code.
-3. You will also zip all your files and send it to turingclub@iisermohali.ac.in at the end of the event. Name your file as DWH-`TEAMNAME`.
+3. You will also zip all your files and send it to **turingclub@iisermohali.ac**.in at the end of the event. Name your file as DWH-`TEAMNAME`.
 4. You give complete authority to anyone to use the code you write during the hackathon later in the future, without any restrictions, insofar that they keep all derivate works open source and non-commercial. All code will be hosted on this website so that you can also see other's code.
 
 ## Grading
 
-1. You will be graded on the basis of accuracy of your answer and on the crucial steps in some of the problems. **Partial grades will be awarded for solving the sub-tasks.**
+1. You will be graded on the basis of accuracy of your answer and on the crucial steps in some of the problems. **Partial grades will be awarded for solving sub-tasks.**
 
 ## And Lastly...
 
