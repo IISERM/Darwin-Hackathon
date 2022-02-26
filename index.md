@@ -57,8 +57,8 @@ In order to compare the diversity of different islands, one can use **Sorensen's
 $$
 C_s = \frac{2a}{2a+b+c}\\
 a = \text{Number of species common between site 1 and 2}\\
-b = \text{Number of species in site 1}\\
-c = \text{Number of species in site 2}\\
+b = \text{Number of species unique to site 1}\\
+c = \text{Number of species unique to site 2}\\
 $$
 
 Find the Sorensen's coefficient for all the combinations of the islands where species accumulation curve has attained saturation. 
