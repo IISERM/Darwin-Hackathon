@@ -103,7 +103,7 @@ All possible RNA sequences that code for the given amino acid sequence.
 
 ## Question 4[100 Marks]
 
-Fascinated by [Conway's Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), a mathematical biologist has decided to make life more complicated. Here are the rules of his game-
+Fascinated by [Conway's Game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), a mathematical biologist, who believes that **"Life is a difficult proposition"** has decided to make life more complicated. Here are the rules of his game-
 
 Each cell in an $$2N\times 2N$$ grid is in one of the 2 possible states, live(1) or dead(0). Each cell interacts with it's 8 neighbours and it's own state after the interaction is given by a rule which is different in different parts of the grid. He divides the grid into 4 parts and follows the rules given below-
 
