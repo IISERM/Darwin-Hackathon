@@ -13,4 +13,4 @@ Mutants|0|0|0|0|0|0|0
 
 It was a real close call between RNGs and Bakery Bois. 
 
-For any queries regarding the grading you may contact Ansh (Co-Convener) or Nikhil (Co-Convener).
+For any queries regarding the grading you may contact Ansh (Co-Convener, Turing Club) or Nikhil (Co-Convener, Turing Club).
