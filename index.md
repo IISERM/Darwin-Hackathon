@@ -8,7 +8,7 @@ Feel free to contact the organizers if you need additional information.
 
 # [Click here for Rules](./rules)
 
-# [Click here for Submissions](./2022/results.md)
+# [Click here for Results](./2022/results.md)
 
 # Questions
 
