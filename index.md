@@ -4,7 +4,7 @@
 
 The aim of this hackathon is to come up with algorithms to solve problems in biology and bio-computation. The organizers feel that programming is in everyone's blood, for we are inherently algorithmic. Hence, the questions do **not** expect that you know some fancy set of functions to solve these problems. They just need you to think about how you would go about doing something.
 
-# [Click here for Rules](./rules)
+# [Click here for Rules](./rules.md)
 
 # **Questions of DWH Hackathon 2022-23!**
 
