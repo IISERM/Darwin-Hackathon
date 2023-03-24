@@ -1,4 +1,4 @@
-# Dawrin Hackathon 2022-23
+# Darwin Hackathon 2022-23
 
 **Disclaimer**: We @ Turing are not a great fan of biology in general. We tried to get a few people having biology as well as in coding to help us with the questions, but apparently participating is much more interesting than making questions. So we have asked one person from BDF to stay back during the entire duration of the hackathon. Please ask us (Rajnil, +91 8017965462)/BDF reps (Vasudev, +91 9654330149; Vikas, +91 8307853922) if you have any questions regarding the questions. We will try to answer them. 
 
@@ -50,9 +50,9 @@ Now, you can construct the matrix by either using numpy, or using a library whic
 ## Question 4--Pedigree Analysis [80 points]:
  This time we need you to do [pedigree analysis](https://en.wikipedia.org/wiki/Pedigree_analysis). You have been given a pedigree of a family, and you have to find out the genotypes of the individuals in the family. You can assume that the family is inbred, and that the genotypes of the parents are known.
 
-  ### Input: 
+### Input: 
  
- List with 2^n^ tuples containing infected status of the couple in order (Male, Female), type of infection. Example: (Xy, xx) where capital letter indicates infected chromosome and small letter represents vice versa for dominant and vice versa for recessive.
+ List with 2^n^ tuples containing infected status of the couple in order (Male, Female), type of infection. Example: (Xy, xx) where capital letter indicates dominant trait and small letter represents recessive trait.If infection is dominant, having dominant trait will lead to infection. If infection is recessive, having 1 recessive trait will lead to carrier status, double recessive is infection.
 
 ### Output: 
 Chance of last generation being infected and carrying infected chromosome. 
