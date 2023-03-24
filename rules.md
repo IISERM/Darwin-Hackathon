@@ -1,6 +1,6 @@
 # Rules
 
-1. The event is **2.5 hours** long on **24 February 2023, 2pm-7pm**. It has been a tradition to increase the time limit later, but this is the official time for now.
+1. The event is **2.5 hours** long on **24 February 2023, 9:30pm-12pm**. It has been a tradition to increase the time limit later, but this is the official time for now.
 2. Teams of maximum of 3 members.
 3. You may use any language of your choice. You may also use different languages for different questions. But you should know that questions were made with Python in mind.
 4. You may use any resources available to you within the hackathon environment. You may also collaborate with other groups, but remember that it is a competition. You may also join teams, insofar that **rule 2** is not broken. Please notify the organizers of any group changes. You may **not** consult anyone outside the Hackathon arena.
@@ -12,7 +12,7 @@
 A particular question might allow usage of a specific library. If so, it would be mentioned in the question. If you feel the need to use an unmentioned library, inform the organizers. 
 6. You may use any IDE/environment of your choice. Personal preference of the organizers are Jupyter for Python, Pluto for Julia.
 7. You are free to ask the organizers any questions you want. Even questions like _how to read from a file in Python?_ are welcome. You may not get all the answers you want though. 🙂 Again, the point is to solve the problem.
- 
+8. The bonus question will be use to determine tie breakers, if any, and not considered during general evaluation. 
 
 ## Submission
 
