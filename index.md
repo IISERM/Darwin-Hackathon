@@ -52,12 +52,12 @@ Now, you can construct the matrix by either using numpy, or using a library whic
 
   ### Input: 
  
- List with 2^n tuples containing infected status of the couple in order (Male, Female), type of infection. Example: (Xy, xx) where capital letter indicates infected chromosome and small letter represents vice versa for dominant and vice versa for recessive.
+ List with 2^n^ tuples containing infected status of the couple in order (Male, Female), type of infection. Example: (Xy, xx) where capital letter indicates infected chromosome and small letter represents vice versa for dominant and vice versa for recessive.
 
 ### Output: 
 Chance of last generation being infected and carrying infected chromosome. 
-Offspring of 2i^(th) and (2i + 1)^(th) couple reproduce to form next generation. Doing so will eventually lead to last generation having one offspring. 
-For the sake of simplicity, offspring of 2i^(th) and (2i + 1)^(th) will always be of opposite sex. Go through both the possibility as we only have information about the nth generation. 
+Offspring of 2i^th^ and (2i + 1)^th^ couple reproduce to form next generation. Doing so will eventually lead to last generation having one offspring. 
+For the sake of simplicity, offspring of 2i^th^ and (2i + 1)^th^ will always be of opposite sex. Go through both the possibility as we only have information about the nth generation. 
 
 
 ## Question 5--Simulation [100 points]:
