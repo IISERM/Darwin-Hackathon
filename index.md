@@ -72,7 +72,7 @@ Wonderful! Now we have a terrain generator. Now to simulate organisms on it. Eac
 After defining these rules, you place an organism in each cell and run the simulation for 100 iterations. Plot an image for each iteration and create a GIF out of it. Note: This question is computationally heavy, you may submit your code without the GIF and we will go through the code. Though seeing a GIF would be really really cool. 
 
 
-## Question 6--Evolution of colonies [BONUS][7 points]: 
+## Question 6--Evolution of colonies [BONUS][60 points]: 
 
 Imagine a *spherical* world, devoid of IISERs and any other pesky disturbances in life. 'n' number of circular bacterial colonies reside peacefully in that world. However, colonies grow, and so do these. These colonies are growing exponentially at different growth rates. Of course, a growing colony does not mean that the bacterium itself is growing, but the number of bacteria are increasing. You see that the area is increasing exponentially, and realise that since all the bacteria colonies are growing, they will eventually collide. What you have to do is predict the point(s) of collision, given that you know initially where the colonies are, the inital size, and their growth rates.
 
